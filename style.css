@@ -1,0 +1,15 @@
+h3{
+    font-size: 25px !important;
+}
+btn-success{
+    background-color: aqua;
+}
+canvas{
+    animation-name: bixy;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes bixy{
+    From{box-shadow: 1px 1px 39px lightskyblue;}
+    to{box-shadow: 1px 1px 39px rgb(174, 174, 231);}
+}
